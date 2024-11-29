@@ -12,14 +12,14 @@
 
         // this code made the app sub-optimal and needs to avoid intersecting states
 
-        const handleUserMoves = (rowIndex, colIndex) => {
-            setGameBoard((prevGameboard) => {
-                const updatedBoard = [...prevGameboard.map(innerArray => [...innerArray])];
-                updatedBoard[rowIndex][colIndex] = activePlayerSymbol;
-                return updatedBoard;
-            })
-            currentPlayer();
-        }
+        // const handleUserMoves = (rowIndex, colIndex) => {
+        //     setGameBoard((prevGameboard) => {
+        //         const updatedBoard = [...prevGameboard.map(innerArray => [...innerArray])];
+        //         updatedBoard[rowIndex][colIndex] = activePlayerSymbol;
+        //         return updatedBoard;
+        //     })
+        //     currentPlayer();
+        // }
 
       
         return (
