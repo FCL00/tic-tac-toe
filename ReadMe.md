@@ -13,7 +13,7 @@ Create a React-based Tic-Tac-Toe application that provides a fun and interactive
 
 1. Clone the repository:
     ```
-    git clone <repository-url>
+    git clone https://github.com/FCL00/tic-tac-toe.git
     cd tic-tac-toe-react-app
     ```
 2. Install dependencies:
