@@ -4,7 +4,7 @@ import Player from "@/components/Player"
 import GameBoard from "@/components/GameBoard"
 import Log from "@/components/Log";
 import GameOver from "@/components/GameOver";
-import {deriveActivePlayer, deriveGameBoard, deriveWinner} from "@/util/controls"
+import {deriveActivePlayer, deriveGameBoard, deriveWinner} from "@/utils/controls"
 
 function App() {
   // game source

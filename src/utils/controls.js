@@ -1,4 +1,4 @@
-import { COMBINATIONS } from "@/util/combination";
+import { COMBINATIONS } from "@/utils/combination";
 
 const initialGameBoard = [
     [null, null, null], 
