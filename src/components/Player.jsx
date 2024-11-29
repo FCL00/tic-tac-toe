@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-const Player = ({name, symbol, isActive}) => {
+const Player = ({name, symbol, isActive, onChangeName}) => {
 
     const [isEditing, setEditing] = useState(false);
 
@@ -9,6 +9,10 @@ const Player = ({name, symbol, isActive}) => {
     const handleEditClick = () => {
         setEditing((prev) => !prev)
 
+        // only when the editing is trigger
+        if(isEditing){
+            onChangeName(symbol, playerName);
+        }
     }
 
     const handleChangeName = (event) => {
