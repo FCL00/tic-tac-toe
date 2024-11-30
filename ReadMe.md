@@ -1,4 +1,4 @@
-# Assessment 2 Tic-Tac-Toe React App
+# Tic-Tac-Toe React App
 
 Create a React-based Tic-Tac-Toe application that provides a fun and interactive way to play the classic game.
 
